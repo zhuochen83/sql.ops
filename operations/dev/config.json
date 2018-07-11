@@ -1,0 +1,9 @@
+{
+    "displayName": "Dev Server",
+    "connection": {
+        "server": "localdb",
+        "user": "sa",
+        "password": "localdb1!",
+        "database": "LocalDB"
+    }
+}

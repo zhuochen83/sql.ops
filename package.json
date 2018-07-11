@@ -1,0 +1,23 @@
+{
+  "name": "sql.ops",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch": "concurrently \"tsc --watch\" \"nodemon dist/index.js\""
+  },
+  "dependencies": {
+    "mssql": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/mssql": "^4.0.8",
+    "@types/node": "^10.5.2",
+    "concurrently": "^3.6.0",
+    "nodemon": "^1.18.0",
+    "prettier": "^1.13.7",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.10.0",
+    "tslint-config-prettier": "^1.13.0",
+    "typescript": "^2.7.2"
+  }
+}
